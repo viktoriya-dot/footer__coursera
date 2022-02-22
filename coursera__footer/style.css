@@ -1,0 +1,134 @@
+ul.reset {
+  margin: 0;
+  padding: 0 0 0 10px;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f5f5;
+  font-family: Source Sans Pro,Arial,sans-serif;
+  line-height: 1.25rem;
+}
+
+.footer__menu-wrapper {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__menu-wrapper {
+    gap: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__menu-wrapper {
+    gap: 40px 10x;
+  }
+}
+
+.column {
+  width: calc(( 100%  - 60px)/ 4);
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: calc(( 100%  - 60px)/ 3);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: calc(( 100%  - 60px)/ 2);
+  }
+}
+
+h3 {
+  padding-left: 10px;
+  font-family: Source Sans Pro;
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+li {
+  text-decoration: none;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer__menu a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.footer__menu a:hover {
+  text-decoration: underline;
+}
+
+.store__link {
+  margin-top: 15px;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px 10px;
+}
+
+.footer__sign, .footer__social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer__sign {
+  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.sign {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.footer__social-links {
+  gap: 20px;
+}
+/*# sourceMappingURL=style.css.map */
